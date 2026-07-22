@@ -1,0 +1,16 @@
+{
+  "name": "maglido-m3-execution-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Controlled Execution MVP: a Playwright agent that clicks only when the frozen M2 candidate returns ALLOW.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "node run-demo.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
